@@ -59,6 +59,7 @@ or a model configured.
     tyrion.actor = peter
     thrones = Show.new(:name => "Game of Thrones")
     tyrion.show = thrones
+    tyrion.catchphrase = "A Lannister Always Pays His Debts"
     tyrion.save
     ```
 
